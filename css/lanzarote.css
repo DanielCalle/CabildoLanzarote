@@ -1,0 +1,58 @@
+.imagen-inicio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    position: static;
+}
+
+.imagen-inicio > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.div-imagen-inicio {
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+.caja1 {
+    position: relative;
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 5%;
+    top: 10%;
+    left: 10%;
+    background-color: aqua;
+}
+
+.caja2 {
+    position: relative;
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 5%;
+    top: 10%;
+    left: 30%;
+    background-color: aqua;
+}
+
+.caja3 {
+    position: relative;
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 5%;
+    top: 10%;
+    left: 55%;
+    background-color: aqua;
+}
+
+.caja4 {
+    position: relative;
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 5%;
+    top: 10%;
+    left: 75%;
+    background-color: aqua;
+}
