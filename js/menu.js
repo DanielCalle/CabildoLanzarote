@@ -1,4 +1,6 @@
 $( document ).ready(function() {
+    $(".contenedores").hide();
+    $("#inicio").show();
     $("#menu-inicio").click(function() {
         $(".pure-menu-selected").addClass("pure-menu-item");
         $(".pure-menu-selected").removeClass("pure-menu-selected");
