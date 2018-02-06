@@ -62,3 +62,7 @@
     max-width:1200px;
     max-height: 400px;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
