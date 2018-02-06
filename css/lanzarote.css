@@ -17,44 +17,30 @@
     padding-bottom: 8em;
 }
 
-.caja1 {
-    position: relative;
+.caja {
+    position: absolute;
     display: inline-block;
-    padding-left: 3%;
+    padding-left: 5%;
     padding-top: 5%;
-    top: 10%;
-    left: 10%;
+    top: -7%;
+    border-radius: 50% !important;
     background-color: aqua;
+}
+
+.caja1 {
+    left: 18%;
 }
 
 .caja2 {
-    position: relative;
-    display: inline-block;
-    padding-left: 3%;
-    padding-top: 5%;
-    top: 10%;
-    left: 30%;
-    background-color: aqua;
+    left: 38%;
 }
 
 .caja3 {
-    position: relative;
-    display: inline-block;
-    padding-left: 3%;
-    padding-top: 5%;
-    top: 10%;
-    left: 55%;
-    background-color: aqua;
+    right: 38%;
 }
 
 .caja4 {
-    position: relative;
-    display: inline-block;
-    padding-left: 3%;
-    padding-top: 5%;
-    top: 10%;
-    left: 75%;
-    background-color: aqua;
+    right: 18%;
 }
 
 .w-100 {
