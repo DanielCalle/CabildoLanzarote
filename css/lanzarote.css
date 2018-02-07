@@ -29,6 +29,11 @@
     width: 10%;
 }
 
+.caja:hover {
+    height: auto;
+    width: 12%;
+    top: 83%;
+}
 .caja1 {
     left: 10%;
 }
@@ -48,39 +53,6 @@
 .caja5 {
     right: 10%;
 }
-
-.caja1:hover {
-    -webkit-transition: width 1s; /* Safari */
-    transition: width 1s;
-    width: 13%;
-}
-
-.caja2:hover {
-    -webkit-transition: width 1s; /* Safari */
-    transition: width 1s;
-    width: 13%;
-}
-
-.caja3:hover {
-    -webkit-transition: width 1s; /* Safari */
-    transition: width 1s;
-    width: 13%;
-}
-
-.caja4:hover {
-    -webkit-transition: width 1s; /* Safari */
-    transition: width 1s;
-    width: 13%;
-}
-
-.caja5:hover {
-    -webkit-transition: width 1s; /* Safari */
-    transition: width 1s;
-    width: 13%;
-}
-
-
-
 
 .interesa {
     position:absolute;
@@ -164,3 +136,25 @@ body {
 .breadcrumb a:hover {color: rgba(255, 255, 255, 1);}
 .breadcrumb>.active {color: rgba(255, 255, 255, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
+
+.menu-interesa {
+    padding-top:1em;
+    padding-bottom:1em;
+    display: none;
+    background-color: #E9ECEF;
+    border-bottom: 6px solid #343a40;
+}
+
+.menu-interesa > nav > a {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .caja {
+        display: none;
+    }
+    .menu-interesa {
+        display: block;
+    }
+}
