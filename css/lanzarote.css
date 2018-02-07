@@ -2,6 +2,7 @@
     font-family: 'iconic-sm';
     src: url('iconic-sm.eot');
 }
+
 .imagen-inicio {
     margin-left: auto;
     margin-right: auto;
@@ -21,10 +22,53 @@
     padding-bottom: 8em;
 }
 
+.rectangulo {
+    position: absolute;
+    display: inline-block;
+    top: 86%;
+    text-align: center;
+    padding-top:2%;
+    height: 22%;
+    width: 8%;
+    background-color: #9A1A15;
+    font-size: 2em;
+    
+    border-bottom: 6px solid #343a40;
+}
+
+.rectangulo:hover {
+    background-color: rgb(179, 31, 26);
+    
+}
+
+.rectangulo1 {
+    left: 8%;
+}
+
+.rectangulo2 {
+    left: 23%;
+}
+
+.rectangulo3 {
+    left: 38%;
+}
+
+.rectangulo4 {
+    right: 38%;
+}
+
+.rectangulo5 {
+    right: 23%;
+}
+
+.rectangulo6 {
+    right: 8%;
+}
+
 .caja {
     position: absolute;
     display: inline-block;
-    top: 85%;
+    top: -11%;
     height: auto;
     width: 10%;
 }
@@ -32,7 +76,6 @@
 .caja:hover {
     height: auto;
     width: 12%;
-    top: 83%;
 }
 .caja1 {
     left: 10%;
@@ -146,16 +189,27 @@ body {
     padding-top:1em;
     padding-bottom:1em;
     display: none;
-    background-color: #E9ECEF;
-    border-bottom: 6px solid #343a40;
+    background-color: #343a40;
 }
 
 .menu-interesa > nav > a {
     text-align: center;
 }
 
+.menu-temas {
+    padding-top:1em;
+    padding-bottom:1em;
+    display: none;
+    background-color: #E9ECEF;
+    border-bottom: 6px solid #343a40;
+}
 
-@media only screen and (max-width: 500px) {
+.menu-temas > nav > a {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
     .div-imagen-inicio {
         display:none;
     }
@@ -164,6 +218,15 @@ body {
     }
     .menu-interesa {
         display: block;
+    }
+    .menu-temas {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .rectangulo {
+        padding-top: 1%;
     }
 }
 
