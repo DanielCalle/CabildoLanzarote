@@ -128,36 +128,39 @@ body {
 }
 
 .sidenav {
-    height: 100%;
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 10;
-    left: 0;
-    background-color: #343a40;
+    top: 140px;
+    bottom: 90px;
+    left: 10px;
+    background: #343a40;
     overflow-x: hidden;
-    padding-top: 0px;
+    padding: 8px 0;
+    border: 4px solid rgba(230, 18, 32, 1);
+    border-radius: 5px
 }
 
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     display: block;
-    font-family: "Lato", sans-serif;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #06790c;
 }
 
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+.breadcrumb {background: rgba(92, 90, 90, 1); border: 4px solid rgba(245, 245, 245, 1); border-radius: 0px; display: block;}
+.breadcrumb li {font-size: 15px;}
+.breadcrumb a {color: rgba(230, 18, 32, 1);}
+.breadcrumb a:hover {color: rgba(255, 255, 255, 1);}
+.breadcrumb>.active {color: rgba(255, 255, 255, 1);}
+.breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
