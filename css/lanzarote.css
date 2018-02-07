@@ -58,16 +58,15 @@ body {
 }
 
 .sidenav {
-    width: 160px;
+    width: 180px;
     position: fixed;
     z-index: 1;
     top: 140px;
-    bottom: 90px;
+    bottom: 160px;
     left: 10px;
     background: #343a40;
     overflow-x: hidden;
     padding: 8px 0;
-    border: 4px solid rgba(230, 18, 32, 1);
     border-radius: 5px
 }
 
@@ -80,9 +79,15 @@ body {
 }
 
 .sidenav a:hover {
-    color: #06790c;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bold;
 }
-
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .img-responsive {max-height: 250px;}
+}
 .main {
     margin-left: 140px; /* Same width as the sidebar + left position in px */
     font-size: 28px; /* Increased text to enable scrolling */
@@ -94,3 +99,11 @@ body {
 .breadcrumb a:hover {color: rgba(255, 255, 255, 1);}
 .breadcrumb>.active {color: rgba(255, 255, 255, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
+
+.img-responsive {
+    max-height: 500px;
+}
+.media-heading{
+    padding: 6px;
+   
+}
