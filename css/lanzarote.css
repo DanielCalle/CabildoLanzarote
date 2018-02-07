@@ -21,19 +21,90 @@
     padding-bottom: 8em;
 }
 
+.caja {
+    position: absolute;
+    display: inline-block;
+    top: 85%;
+    height: auto;
+    width: 10%;
+}
+
+.caja1 {
+    left: 10%;
+}
+
+.caja2 {
+    left: 27%;
+}
+
+.caja3 {
+    right: 45%;
+}
+
+.caja4 {
+    right: 27%;
+}
+
+.caja5 {
+    right: 10%;
+}
+
+.caja1:hover {
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
+    width: 13%;
+}
+
+.caja2:hover {
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
+    width: 13%;
+}
+
+.caja3:hover {
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
+    width: 13%;
+}
+
+.caja4:hover {
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
+    width: 13%;
+}
+
+.caja5:hover {
+    -webkit-transition: width 1s; /* Safari */
+    transition: width 1s;
+    width: 13%;
+}
+
+
+
+
 .interesa {
-    margin-top: 4em;
+    position:absolute;
+    display: inline-block;
+    top:50%;
+    text-align:center;
+    margin:auto;
+    margin-top: 5%;
     text-align: center;
 }
 
 .interesa > li {
     display: inline-block;
     margin: 2em;
+    
+    height: 10%;
+    width: 10%;
 }
 
 .interesa-img {
     margin:auto;
     display:block;
+    height: 100%;
+    width: 100%;
 }
 
 .interesa-texto {
@@ -46,8 +117,7 @@
 
 .w-100 {
     width:100%;
-    max-width:1200px;
-    max-height: 400px;
+    max-height: auto;
 }
 .img-fluid {
     max-width: 100%;
