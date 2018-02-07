@@ -62,7 +62,7 @@ body {
     position: fixed;
     z-index: 1;
     top: 140px;
-    bottom: 160px;
+    bottom: 190px;
     left: 10px;
     background: #343a40;
     overflow-x: hidden;
@@ -105,5 +105,9 @@ body {
 }
 .media-heading{
     padding: 6px;
-   
+
+}
+.media-body{
+    background: #343a40;
+ 
 }
