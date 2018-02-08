@@ -3,6 +3,15 @@
     src: url('iconic-sm.eot');
 }
 
+@font-face {
+    font-family: 'MuktaMahee';
+    src: url('MuktaMahee-Regular.ttf');
+}
+
+* {
+    font-family: MuktaMahee;
+}
+
 .imagen-inicio {
     margin-left: auto;
     margin-right: auto;
