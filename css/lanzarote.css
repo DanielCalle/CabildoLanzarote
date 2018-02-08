@@ -281,8 +281,10 @@ body {
 .card-title{
     border-bottom: 1px solid gray;
 }
-.card {
-    background: solid #343a40;
+.card-body {
+    background: #343a40;
+    width: 18rem;
+    color: whitesmoke;
 }
 
 .navbar > .container {
