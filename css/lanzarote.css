@@ -481,4 +481,26 @@ body {
     }
   }
 
+.sitemap {
+    margin:0px;
+    margin-top:1em;
+}
 
+  .sitemap > h1{
+    margin-bottom:1em;
+  }
+
+  .sitemap > div > div > h4{
+    margin-bottom:1em;
+  }
+
+  .sitemap > div > div > ul{
+    list-style-type:square;
+    margin:0px;
+    padding:2pt;
+    color: grey;
+  }
+
+  .sitemap > div > div > ul > li{
+    margin-bottom: 5pt;
+  }
