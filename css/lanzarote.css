@@ -285,7 +285,7 @@ body {
     width: 83%; 
     float: right; 
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
     #sidebar-wrapper {
         display: none;
     }
