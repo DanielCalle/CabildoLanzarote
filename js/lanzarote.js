@@ -8,6 +8,12 @@ $(document).ready(function(){
     $('.rectangulo1').click(function() {
         window.open("./cabildo-cabildo.html","_self")
     });
+    $('.caja2').click(function() {
+      window.open("./cabildo-jovenes.html","_self")
+  });
+    $('#perfil').click(function() {
+      window.open("./cabildo-login.html","_self")
+  });
 });
 
 

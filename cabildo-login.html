@@ -48,7 +48,7 @@
                   <span class="oi oi-magnifying-glass" aria-hidden="true"></span>
               </button>
               <div style = "margin-left: 5px" > 
-                <button type="button" class="btn btn-custom"><span class="oi oi-person"></span> Perfil</button>
+                <button id="perfil" type="button" class="btn btn-custom"><span class="oi oi-person"></span> Perfil</button>
               </div>
             </form>
            
@@ -56,22 +56,29 @@
         </div>
       </header>
       <nav class="breadcrumb bg-dark"  style="margin:0px">
-        <a class="breadcrumb-item active" href="cabildo-inicio.html">Inicio</a>
+        <a class="breadcrumb-item" href="cabildo-inicio.html">Inicio</a>
+        <a class="breadcrumb-item active" href="cabildo-login.html">Login</a>
       </nav>
   
-      <div class="container">
+      <div class="container" style="max-width: 32em">
         <form class="form-signin text-center" style="margin-top:4em;">
           <img class="mb-4" src="img/lanzarote_escudo.png" alt="" width="72" height="100">
           <h1 class="h3 mb-3 font-weight-normal">Inicio de sesión</h1>
-          <div>
-            <label for="inputEmail" class="sr-only">Email</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            <label for="inputPassword" class="sr-only">Contraseña</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label text-right">Email</label>
+            <div class="col-10">
+              <input  class="form-control" type="email"  required autofocus>
+            </div>
           </div>
-          <div>
-            <button class="btn btn-lg btn-primary" type="submit">Cancelar</button>
-            <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
+          <div class="form-group row">
+            <label for="example-text-input" class="col-2 col-form-label text-right">Contraseña</label>
+            <div class="col-10">
+              <input  class="form-control" type="password"  required autofocus>
+            </div>
+          </div>
+          <div class="form-signin text-right">
+            <button style="margin: 1em"class="btn btn-lg btn-secondary" type="submit">Cancelar</button>
+            <button class="btn btn-lg btn-success" type="submit">Entrar</button>
           </div>
           
           <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
