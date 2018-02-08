@@ -277,3 +277,9 @@ body {
         margin-left:20px;
     }
 }
+.card-title{
+    border-bottom: 1px solid gray;
+}
+.card {
+    background: solid #343a40;
+}
