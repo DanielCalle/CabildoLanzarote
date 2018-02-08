@@ -143,11 +143,11 @@ body {
 }
 
 .sidenav {
-    width: 180px;
+    width: 15%;
     position: fixed;
     z-index: 1;
-    top: 140px;
-    bottom: 190px;
+    top: 220px;
+    bottom: 150px;
     left: 10px;
     background: #343a40;
     overflow-x: hidden;
@@ -156,9 +156,9 @@ body {
 }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 8px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     display: block;
 }
@@ -170,7 +170,7 @@ body {
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 9px;}
     .img-responsive {max-height: 250px;}
 }
 .main {
@@ -240,7 +240,6 @@ body {
 }
 .media-heading{
     padding: 6px;
-
 }
 .media-body{
     background: #343a40;
