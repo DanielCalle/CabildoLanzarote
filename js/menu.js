@@ -30,11 +30,7 @@ $( document ).ready(function() {
         $("#diseño").show(300);
     });
     $("#menu-implementacion").click(function() {
-        $(".pure-menu-selected").addClass("pure-menu-item");
-        $(".pure-menu-selected").removeClass("pure-menu-selected");
-        $("#menu-implementacion").addClass("pure-menu-selected");
-        $(".contenedores").hide(100).delay(100);
-        $("#implementacion").show(300);
+        window.open("./cabildo-inicio.html");
     });
 
     console.log("hola");
