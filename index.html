@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+    <title>Memoria Grupo 5</title>
+    <link rel="icon" type="image/png" href="img/lanzarote_escudo.png">
     <script src="js/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     
@@ -38,10 +39,10 @@
 
             <ul class="pure-menu-list">
                 <li id="menu-inicio" class="pure-menu-selected"><a href="#" class="pure-menu-link">Inicio</a></li>
-                <li id="menu-objetivo" class="pure-menu-item"><a href="#" class="pure-menu-link">Objetivo</a></li>                
-                <li id="menu-similares" class="pure-menu-item"><a href="#" class="pure-menu-link">Páginas similares</a></li>
+                <li id="menu-similares" class="pure-menu-item"><a href="#" class="pure-menu-link">Estudio de la competencia</a></li>                
+                <li id="menu-objetivo" class="pure-menu-item"><a href="#" class="pure-menu-link">Objetivos</a></li>                
                 <li id="menu-diseño" class="pure-menu-item"><a href="#" class="pure-menu-link">Diseño</a></li>
-                <li id="menu-implementacion" class="pure-menu-item"><a href="#" class="pure-menu-link">Implementacion</a></li>
+                <li id="menu-implementacion" class="pure-menu-item"><a href="#" class="pure-menu-link">Implementación</a></li>
             </ul>
         </div>
     </div>
@@ -50,7 +51,6 @@
         <div class="header">
             <h1>Memoria grupo 5</h1>
         </div>
-
         <div class="content">
             <h2 class="content-subhead">Introducción</h2>
             <p>
@@ -85,12 +85,84 @@
     </div>
     <div id="objetivo" class="contenedores">
         <div class="header">
-            <h1>Objetivo</h1>
+            <h1>Objetivos</h1>
+        </div>
+        <div class="content">
+            <h2 class="content-subhead">Público objetivo</h2>
+
+            <h2 class="content-subhead">Objetivos de la web</h2>
         </div>
     </div>
     <div id="similares" class="contenedores">
         <div class="header">
-            <h1>Páginas similares</h1>
+            <h1>Estudio de la competencia</h1>
+        </div>
+        <div class="content">
+            <p>
+                Para llevar a cabo la remodelación lo primero que hemos 
+                hecho ha sido realizar un estudio de las páginas web similares, analizando los pros y las contras. 
+                En nuestro caso nos hemos centrado en los ayuntamientos con los mejores diseños web y con patrones 
+                más acordes a nuestro esbozo del mismo.Los sitios web sobre los que hemos realizado el estudio son los siguientes:
+            </p>
+            <h2 class="content-subhead">
+                Cabildo de Gran Canaria
+                <a class="btn btn-primary" href="http://cabildo.grancanaria.com/" role="button" data-toggle="tooltip" title="Some tooltip text!">Link</a>
+            </h2>
+            <img src="img/cabildoGranCanaria2.png" width="100%" border="0" alt="" style="padding:0px;">
+                <h3>Pros</h3>
+                    <h4>Hairlines</h4>
+                    <p>
+                        Las distintas secciones de la página principal se separan con el uso de líneas finas que delimitan claramente cada parte distinta de contenido. 
+                        Además, en el resto de páginas, el contenido se estructura separado por líneas horizontales que facilitan en gran medida la lectura.
+                    </p>
+                    <h4>Contrasting Font Weights</h4>
+                    <p>
+                        La página del Cabildo de Gran Canaria utiliza una misma fuente para todo su contenido, diferenciando el uso de fuente de mayor tamaño para títulos (donde a su vez diferencia los apartados principales con mayúsculas, y los apartados secundarios con negrita) y fuente de menor tamaño para el resto del texto. Además, recurre al uso de subrayado y cursiva para enlaces y accesos directos a cierto contenido de la página.
+                    </p>
+                    <h4>Accordion</h4>
+                    <p>
+                        En las diversas páginas de contenido se dispone de un menú lateral en columna con el subcontenido de dichas paginas organizado mediante acordeones desplegables con contenido adicional.
+                    </p>
+                <img src="img/cabildoGranCanaria.png" width="100%" border="0" alt="" style="padding:0px;">
+                <h3>Contras</h3>
+                    <h4>Corner Treatments</h4>
+                    <p>
+                        El uso continuado de bordes rectos hace que la pagina tenga un aspecto demasiado monótono y simple, careciendo del uso de bordes redondeados en botones o imágenes que ayuden a distinguirlos del resto de contenido.
+                    </p>
+                    <h4>Clear Entry Points</h4>
+                    <p>
+                        La página dispone de una gran cantidad de accesos directos a gran parte del contenido, pero no cumple correctamente la función del patrón al no limitar los enlaces a tareas concretas, sino que muestra puntos de entrada a todo el contenido en general.
+                    </p>
+                    <h4>Right/Left Alignment</h4>
+                    <p>
+                        En la página no se aplica el patrón al alinear todo el contenido a la izquierda cuando se usan dos columnas. Esto provoca que se produzca espacio innecesario entre las columnas y hace parecer que no hay cohesión en el contenido mostrado.
+                    </p>
+
+            <h2 class="content-subhead">Ayuntamiento de Madrid</h2>
+            <img src="img/AyuntaMadrid.png" width="100%" border="0" alt="" style="padding:0px;">
+                <h3>Pros</h3>
+                    <h4>Clear Entry Points</h4>
+                    <p>
+                        La pagina tiene una pequeña cantidad de accesos directos distribuidos según el perfil del usuario, que llevan a la información mas relevante para cada uno de ellos. Usando este patrón consigue que el usuario no se pierda entre la gran cantidad de información que dispone la página y encuentre rápidamente aquello que esté buscando.
+                    </p>
+                    <h4>Sitemap Footer</h4>
+                    <p>
+                        En la parte inferior de la página dispone de un conjunto de accesos rápidos que complementan la navegación de cabecera. Este menú complementario ayuda a gestionar la gran cantidad de paginas que tiene el Ayuntamiento de Madrid.
+                    </p>
+                    <h4>Breadcrumbs</h4>
+                    <p>
+                        El usuario dispone en todo momento de información sobre la situación en que se encuentra dentro de la jerarquía de navegación de las diversas paginas disponibles. Este patrón permite que podamos retroceder fácilmente por las paginas padres hasta alcanzar la página principal.
+                    </p>
+                <img src="img/AyuntaMadrid2.png" width="100%" border="0" alt="" style="padding:0px;">
+                <h3>Contras</h3>
+                    <h4>Fat Menus</h4>
+                    <p>
+                        Las distintas subpáginas del Ayuntamiento de Madrid se encuentran a priori ocultas al usuario y no se tiene constancia del contenido real de la pagina sin navegar por los distintos módulos de la misma.
+                    </p>
+                    <h4>Sign-In Tools</h4>
+                    <p>
+                        La página no tiene un acceso rápido al menú de identificación de usuario para la realización de trámites, lo que implica que deba identificarse en cada una de las tramitaciones que desee realizar de manera independiente.
+                    </p>
         </div>
     </div>
     <div id="diseño" class="contenedores">
@@ -100,7 +172,7 @@
     </div>
     <div id="implementacion" class="contenedores">
         <div class="header">
-            <h1>Implementacion</h1>
+            <h1>Implementación</h1>
         </div>
     </div>
 </div>

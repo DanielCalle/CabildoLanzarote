@@ -205,6 +205,23 @@ body {
     border: 1px solid gray;
     color:whitesmoke;
 }
+
+.menu-interesa > h3 {
+    font-weight: bold;
+    text-align:center;
+    color:whitesmoke;
+    margin-bottom:1em;
+    margin-top:1em;
+    padding-bottom:1em;
+    border-bottom:grey solid 1px;
+}
+
+
+.menu-interesa > nav > a:hover {
+    color:white;
+    font-weight: bold;
+}
+
 .menu-interesa2 {
     padding-top:1em;
     padding-bottom:1em;
@@ -216,9 +233,26 @@ body {
 
 .menu-interesa > nav > a {
     text-align: center;
+    color:whitesmoke;
 }
 .menu-interesa2 > nav > a {
     text-align: center;
+    color:whitesmoke;
+}
+
+.menu-interesa2 > h3 {
+    font-weight: bold;
+    text-align:center;
+    color:whitesmoke;
+    margin-bottom:1em;
+    margin-top:1em;
+    padding-bottom:1em;
+    border-bottom:grey solid 1px;
+}
+
+.menu-interesa2 > nav > a:hover {
+    color:white;
+    font-weight: bold;
 }
 
 .menu-temas {
