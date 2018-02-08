@@ -189,6 +189,7 @@ body {
     padding-bottom:1em;
     display: none;
     background-color: #343a40;
+    border: 1px solid gray;
 }
 
 .menu-interesa > nav > a {
@@ -273,4 +274,10 @@ body {
         width: 100%;
         float: unset;
     }
+}
+
+.navbar > .container {
+    width: 100%;
+    margin: 0px;
+    max-width: none;
 }
