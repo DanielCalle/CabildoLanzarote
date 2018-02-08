@@ -30,14 +30,16 @@
     padding-top:2%;
     height: 22%;
     width: 8%;
-    background-color: #9A1A15;
+    background-color: #343a40;
     font-size: 2em;
-    
-    border-bottom: 6px solid #343a40;
+    color:whitesmoke;
+    border-bottom: 6px solid gray;
 }
 
 .rectangulo:hover {
-    background-color: rgb(179, 31, 26);
+    background-color: whitesmoke;
+    
+    color:#343a40;
     
 }
 
