@@ -14,6 +14,9 @@ $(document).ready(function(){
     $('#perfil').click(function() {
       window.open("./cabildo-login.html","_self")
   });
+    $('#link-cabildo').click(function() {
+        window.open("./cabildo-cabildo.html","_self")
+    });
 });
 
 
