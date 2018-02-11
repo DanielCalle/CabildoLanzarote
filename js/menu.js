@@ -29,8 +29,12 @@ $( document ).ready(function() {
         $(".contenedores").hide(100).delay(100);
         $("#diseño").show(300);
     });
-    $("#menu-implementacion").click(function() {
-        window.open("./cabildo-inicio.html");
+    $("#menu-final").click(function() {
+        $(".pure-menu-selected").addClass("pure-menu-item");
+        $(".pure-menu-selected").removeClass("pure-menu-selected");
+        $("#menu-final").addClass("pure-menu-selected");
+        $(".contenedores").hide(100).delay(100);
+        $("#final").show(300);
     });
 
     console.log("hola");
