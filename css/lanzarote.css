@@ -530,6 +530,7 @@ body {
 
 .menu-cabildo a{
     color: whitesmoke;
+    margin-right: 1em;
 }
 
 .menu-cabildo a:hover{
@@ -562,7 +563,7 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     .menu-cabildo {
         display: none;
     }
